@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="row" style="margin-top: 5%">
+    <h1>PDF view<tiny><code></code></tiny></h1>
+    <div class="masonry">
+        {{ range $.Site.Data.photos }}
+            <div class="item">
+                <a href="{{ .src }}">
+                <div class="top-left">{{ .name }}</div>
+            </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

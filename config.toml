@@ -15,3 +15,7 @@ title = "Netlify photo gallery"
     identifier = "photos_s"
     name = "Photo gallery (square)"
     url = "/photos_s/"
+  [[menu.main]]
+    identifier = "pdfs"
+    name = "PDF gallery"
+    url = "/pdfs/"
