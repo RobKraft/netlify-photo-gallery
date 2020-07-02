@@ -1,15 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\content\\pdfs",
-    "\\content\\photos_m",
+    "\\content",
     "\\data",
     "\\layouts",
     "\\layouts\\pdfs",
     "\\layouts\\photos_m",
-    "\\layouts\\_default",
-    "\\static"
+    "\\static",
+    "\\static\\images"
   ],
-  "SelectedNode": "\\layouts\\_default\\baseof.html",
+  "SelectedNode": "\\layouts\\pdfs\\list.html",
   "PreviewInSolutionExplorer": false
 }
