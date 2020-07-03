@@ -20,7 +20,7 @@ var createPDFThumbnails = function(){
         var imgWidth = element.getAttribute('data-pdf-thumbnail-width');
         var imgHeight = element.getAttribute('data-pdf-thumbnail-height');
 
-        pdfjsLib.getDocument(filePath).then(function (pdf) {
+        pdfjsLib.getDocument(filePath).promise.then(function (pdf) {
             pdf.getPage(1).then(function (page) {
                 var canvas = document.createElement("canvas");
                 var viewport = page.getViewport(1.0);
