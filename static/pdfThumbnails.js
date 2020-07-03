@@ -23,13 +23,13 @@ var createPDFThumbnails = function(){
         pdfjsLib.getDocument(filePath).promise.then(function (pdf) {
             pdf.getPage(1).then(function (page) {
                 var canvas = document.createElement("canvas");
-                var viewport = page.getViewport(1.0);
+                var viewport = page.getViewport({ scale: 1, });
                 var context = canvas.getContext('2d');
 
                 if (imgWidth) {
-                    viewport = page.getViewport(imgWidth / viewport.width);
+                    viewport = page.getViewport({scale: imgWidth / viewport.width});
                 } else if (imgHeight) {
-                    viewport = page.getViewport(imgHeight / viewport.height);
+                    viewport = page.getViewport({scale: imgHeight / viewport.height});
                 }
 
                 canvas.height = viewport.height;
