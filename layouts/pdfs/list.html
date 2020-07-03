@@ -4,7 +4,7 @@
     <div class="masonry">
         {{ range $.Site.Data.photos }}
             <div class="item">
-                <img data-pdf-thumbnail-file="{{ .name }}"></img>
+                <img data-pdf-thumbnail-file="{{ .src }}"></img>
                 <div class="top-left">{{ .name }}</div>
             </div>
         {{ end }}
