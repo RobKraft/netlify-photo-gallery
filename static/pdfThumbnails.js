@@ -40,7 +40,7 @@ var createPDFThumbnails = function(){
                     viewport: viewport
                   };
 
-                page.render(renderContext).then(function () {
+                page.render(renderContext).promise.then(function () {
                     element.src = canvas.toDataURL();
                 });
             }).catch(function() {
