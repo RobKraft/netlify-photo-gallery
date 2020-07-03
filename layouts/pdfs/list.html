@@ -4,7 +4,7 @@
     <div class="masonry">
         {{ range where $.Site.Data.photos "type" "pdf" }}
             <div class="item">
-                <a href="{{ .src }}" download="pdf">a>
+                <a href="{{ .src }}">a>
                 <img data-pdf-thumbnail-file="{{ .src }}" src="{{ .src }}"></a>a>
                 <div class="top-left">{{ .name }}</div>
             </div>
