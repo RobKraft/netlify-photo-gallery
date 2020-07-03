@@ -3,6 +3,14 @@
         "name": "HIPAA Compliance Checklist PDF",
         "src": "/images/0HIPAAComplianceChecklistDownload.pdf", "type":"pdf"
     },
+    {
+        "name": "2019 NCOV Factsheet",
+        "src": "/images/2019-ncov-factsheet.pdf", "type":"pdf"
+    },
+    {
+        "name": "Coronavirus Patient",
+        "src": "/images/coronavirus-patient.pdf", "type":"pdf"
+    },
     { "name": "Apple", "src": "/images/apple.jpg" },
     { "name": "Apple2", "src": "/images/apple2.jpg" },
     { "name": "Apple3", "src": "/images/apple3.jpg" },
