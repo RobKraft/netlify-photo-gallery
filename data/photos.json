@@ -1,4 +1,8 @@
 [
+    {
+        "name": "HIPAA Compliance Checklist PDF",
+        "src": "/images/0HIPAAComplianceChecklistDownload.pdf"
+    },
     { "name": "Apple", "src": "/images/apple.jpg" },
     { "name": "Apple2", "src": "/images/apple2.jpg" },
     { "name": "Apple3", "src": "/images/apple3.jpg" },
@@ -10,9 +14,6 @@
     { "name": "Carrots", "src": "/images/carrots.jpg" },
     { "name": "Latte art", "src": "/images/latte-art.jpg" },
     { "name": "Noodles", "src": "/images/noodles.jpg" },
-    { "name": "Branches", "src": "/images/branches.png" },
-    {
-        "name": "HIPAA Compliance Checklist PDF",
-        "src": "/images/0HIPAAComplianceChecklistDownload.pdf"
-    }
+    { "name": "Branches", "src": "/images/branches.png" }
+
 ]
