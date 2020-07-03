@@ -6,9 +6,10 @@
     "\\layouts",
     "\\layouts\\pdfs",
     "\\layouts\\photos_m",
+    "\\layouts\\_default",
     "\\static",
     "\\static\\images"
   ],
-  "SelectedNode": "\\layouts\\pdfs\\list.html",
+  "SelectedNode": "\\static\\images\\Robo-Icon.png",
   "PreviewInSolutionExplorer": false
 }
