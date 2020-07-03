@@ -35,10 +35,12 @@ var createPDFThumbnails = function(){
                 canvas.height = viewport.height;
                 canvas.width = viewport.width;
 
-                page.render({
+                var renderContext = {
                     canvasContext: context,
                     viewport: viewport
-                }).then(function () {
+                  };
+
+                page.render(renderContext).then(function () {
                     element.src = canvas.toDataURL();
                 });
             }).catch(function() {
