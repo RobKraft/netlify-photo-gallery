@@ -1,7 +1,7 @@
 [
     {
         "name": "HIPAA Compliance Checklist PDF",
-        "src": "/images/0HIPAAComplianceChecklistDownload.pdf"
+        "src": "/images/0HIPAAComplianceChecklistDownload.pdf", "type":"pdf"
     },
     { "name": "Apple", "src": "/images/apple.jpg" },
     { "name": "Apple2", "src": "/images/apple2.jpg" },
